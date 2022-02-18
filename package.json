@@ -1,0 +1,21 @@
+{
+    "name": "furysquad-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "node src/index",
+      "start": "node src/index"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.26.0",
+      "express": "^4.17.3",
+      "mongoose": "^6.2.2",
+      "next": "^12.1.0",
+      "shortid": "^2.2.16"
+    }
+  }
+  
