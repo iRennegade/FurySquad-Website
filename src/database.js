@@ -11,7 +11,7 @@ connection.on("error", (err) => {
 
 (async () => {
   try {
-    await mongoose.connect("mongodb+srv://renne:rennepro59@cluster0.ob2pt.mongodb.net/Doxes?retryWrites=true&w=majority");
+    await mongoose.connect(process.env.uri);
   } catch (err) {
     console.error("Error connecting to Database");
   }
