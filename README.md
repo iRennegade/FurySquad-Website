@@ -12,4 +12,3 @@ next dev
 ```
 npm start
 ```
-
