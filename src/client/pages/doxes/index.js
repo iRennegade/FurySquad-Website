@@ -8,7 +8,7 @@ const Index = (props) => {
 }
 
 Index.getInitialProps = async (ctx) => {
-  const res = await fetch("https://FurySquad-web.fshaxx.repl.co/api/")
+  const res = await fetch("https://FurySquad-web.fshaxx.repl.co/api/doxes")
   const data = await res.json();
   console.log(data)
   return { doxes: data }

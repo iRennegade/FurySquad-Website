@@ -5,11 +5,11 @@ const Doxes = (props) => {
         <ul>
             {
                 props.doxes.map(dox => (
-                    <li>{dox._id}</li>
+                    <li>{dox.id}</li>
                 ))
             }
         </ul>
     )
 }
 
-export default Doxes
+export default Doxes;
