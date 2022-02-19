@@ -13,23 +13,25 @@ const New = () => {
             headers: {
                 "Content-Type": "applications/json"
             }
-        }).catch(error => alert('Error! '))
+        }).catch(error => alert('Error!'))
 
         console.log(res);
     }
 
     return (
         <div>
-            
             <form onSubmit={newDox}>
                 <label htmlFor="title">Título</label>
                 <input id="title" title="title" type="text" autoComplete="title" required />
+                <br/>
                 <label htmlFor="author">Author</label>
                 <input id="author" author="author" type="text" autoComplete="author" />
+                <br/>
                 <label htmlFor="content">Contenido</label>
                 <input id="content" title="content" type="text" autoComplete="content" required />
+                <br/>
                 <button type="submit">Publicar</button>
-            </form>¡
+            </form>
         </div>
     )
 }
